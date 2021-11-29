@@ -17,7 +17,7 @@ chown user: group /home/steam -R
 
 use name and group of the user name and group with root rights. This is important, because sometimes the execution of ./steamcmd.sh aborts with an error, if there is no root permission to read from and write to steam subdirectories.
 
-sudo chmod -R 755  /home/steam/
+sudo chmod -R 755 /home/steam/
 cd /home/steam
 wget http://media.steampowered.com/client/steamcmd_linux.tar.gz
 tar -xvf steamcmd_linux.tar.gz 
