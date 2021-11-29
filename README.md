@@ -26,7 +26,7 @@ rm steamcmd_linux.tar.gz
 
 You will get into the steam console  
   
-Steam> login <username>;  
+Steam> login anonymous  
 Steam> passwd  
 Steam> enter security code sent to you registration email of your steam account  
 Steam> force_install_dir ./assetto  
