@@ -20,7 +20,7 @@ use name and group of the user name and group with root rights. This is importan
 sudo chmod -R 755 /home/steam/
 cd /home/steam
 wget http://media.steampowered.com/client/steamcmd_linux.tar.gz
-tar -xvf steamcmd_linux.tar.gz 
+tar -xvf steamcmd_linux.tar.gz
 rm steamcmd_linux.tar.gz  
 ./steamcmd.sh +@sSteamCmdForcePlatformType windows
 
@@ -28,9 +28,9 @@ You will get into the steam console
 
 Steam> login <username>;
 Steam> passwd
-Steam> enter security code sent to you registration email of your steam account 
+Steam> enter security code sent to you registration email of your steam account
 Steam> force_install_dir ./assetto
-Steam> app_update 1430110  
+Steam> app_update 1430110
 Steam> exit
  
 to configure track, cars, ports, name of your AC host
