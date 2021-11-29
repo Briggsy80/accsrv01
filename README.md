@@ -7,7 +7,7 @@ As Steam is a 32 bit installation, first we have to install some 32 bit librarie
 You can install it wherever you like, but I will explain it here as it would be installed in
 /home/steam/assetto/
 
-sudo apt-get update
+sudo apt-get update  
 sudo apt-get install lib32gcc1 wine-development
 
 The following library is needed for stracker, if used
@@ -33,14 +33,14 @@ Steam> force_install_dir ./assetto
 Steam> app_update 1430110
 Steam> exit
  
-to configure track, cars, ports, name of your AC host
+to configure track, cars, ports, name of your ACC host
 nano /home/steam/assetto/cfg/server_cfg.ini
 
 to configure your car list
 nano /home/steam/assetto/cfg/entry_list.ini
 
 start the server after configuration and needed ports are open with
-wine ./acServer
+wine ./accServer.exe
 
  
   
