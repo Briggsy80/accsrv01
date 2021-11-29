@@ -1,4 +1,4 @@
-# accsrv01
+# Assetto Corsa Server Setup
  Dedicated Server setup on Linux -Ubuntu 16.04 +,
 After running in trouble installing ACserver I thought I put a little guide together. My server is Ubuntu, but I think you can use it on any other linux distro. Only to install the needed 32 bit libraries you have to use the installation repositories and commands of your Linux ditribution.
 
